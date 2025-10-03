@@ -1,4 +1,4 @@
-# Public Boards
+# [Public Boards](https://publicboards.vercel.app/)
 
 Public Boards is a simple CRUD (Create, Read, Update, Delete) application that allows users to create, edit, and delete boards. This project is built using React for the frontend and Supabase as the backend database.
 
@@ -27,17 +27,20 @@ Public Boards is a simple CRUD (Create, Read, Update, Delete) application that a
 ### Setup Instructions
 
 1. **Clone the Repository:**
+
    ```bash
    git clone https://github.com/Jowwan/Public-Boards.git
    cd Public-Boards
    ```
 
 2. **Install Dependencies:**
+
    ```bash
    npm install
    ```
 
 3. **Set Up Environment Variables:**
+
    - Create a `.env` file in the root directory.
    - Add your Supabase credentials:
      ```env
@@ -54,13 +57,14 @@ Public Boards is a simple CRUD (Create, Read, Update, Delete) application that a
 ### Supabase Configuration
 
 1. **Database Schema:**
+
    - Create a `boards` table in Supabase with the following columns:
-     | Column Name  | Type        | Constraints      |
+     | Column Name | Type | Constraints |
      |--------------|-------------|------------------|
-     | id           | UUID        | Primary Key      |
-     | created_at   | Timestamp   | Default: now()   |
-     | description  | Text        | Not Null         |
-     | author       | Text        | Not Null         |
+     | id | UUID | Primary Key |
+     | created_at | Timestamp | Default: now() |
+     | description | Text | Not Null |
+     | author | Text | Not Null |
 
 2. **API Key:**
    - Use the public `anon` key provided by Supabase for client-side operations.
@@ -74,4 +78,3 @@ Public Boards is a simple CRUD (Create, Read, Update, Delete) application that a
 ---
 
 Feel free to contribute or suggest improvements!
-
