@@ -1,9 +1,9 @@
 import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
 
-// pages
 import Home from "./pages/Home";
 import Create from "./pages/Create";
 import Update from "./pages/Update";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -18,7 +18,7 @@ function App() {
         <Route path="/create" element={<Create />} />
         <Route path="/:id" element={<Update />} />
       </Routes>
-      <div className="footer"></div>
+      <Footer />
     </BrowserRouter>
   );
 }

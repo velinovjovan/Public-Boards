@@ -55,7 +55,7 @@ const Update = () => {
     };
 
     fetchBoards();
-  }, []);
+  }, [id, navigate]);
 
   return (
     <div className="page update">
