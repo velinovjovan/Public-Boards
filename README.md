@@ -1,4 +1,4 @@
-# [Public Boards](https://publicboards.vercel.app/) 📋
+# [Public Boards](https://publicboards.vercel.app) 📋
 
 Public Boards is a simple CRUD (Create, Read, Update, Delete) application that allows users to create, edit, and delete boards. This project is built using React for the frontend and Supabase as the backend database.
 
@@ -21,7 +21,7 @@ Public Boards is a simple CRUD (Create, Read, Update, Delete) application that a
 
 ### Prerequisites
 
-- [Node.js](https://nodejs.org/) installed on your system.
+- [Node.js](https://nodejs.org) installed on your system.
 - A Supabase account and project setup.
 
 ### Setup Instructions
