@@ -33,8 +33,15 @@ nav a {
 }
 nav h1 {
   color: #fff;
-  font-size: 50px;
+  font-size: 3.125rem;
 }
+
+@media (max-width: 785px) {
+  nav h1 {
+    font-size: 1.562rem;
+  }
+}
+
 .page {
   max-width: 1200px;
   margin: 20px auto;
@@ -167,6 +174,17 @@ nav h1 {
   margin-left: auto;
   margin-top: 50px;
   height: 345px;
+}
+
+@media (max-width: 785px) {
+  .form {
+    width: 250px;
+    padding: 50px 30px;
+  }
+
+  .button-74 {
+    font-size: 14px !important;
+  }
 }
 
 .form input {
