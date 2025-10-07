@@ -1,8 +1,16 @@
-# 📋 [Public Boards](https://publicboards.vercel.app)
+# Public Boards 📋
 
 Public Boards is a simple CRUD (Create, Read, Update, Delete) application that allows users to create, edit, and delete boards. This project is built using React for the frontend and Supabase as the backend database.
 
-## Features
+---
+
+## 🌐 Live Demo
+
+Explore the website [here](https://publicboards.vercel.app)
+
+---
+
+## 🖌️ Features
 
 - **Public Access:** No row-level security is implemented, allowing anyone to perform CRUD operations on all boards.
 - **CRUD Functionality:** Users can:
@@ -12,12 +20,12 @@ Public Boards is a simple CRUD (Create, Read, Update, Delete) application that a
   - Delete boards.
 - **Real-time Updates:** Changes are reflected immediately thanks to Supabase's real-time capabilities.
 
-## Technologies Used
+## 🛠️ Technologies Used
 
 - **Frontend:** React
 - **Backend Database:** Supabase
 
-## Getting Started
+## 🚀 Getting Started
 
 ### Prerequisites
 
@@ -69,7 +77,9 @@ Public Boards is a simple CRUD (Create, Read, Update, Delete) application that a
 2. **API Key:**
    - Use the public `anon` key provided by Supabase for client-side operations.
 
-## Usage
+---
+
+## 👥 Usage
 
 - Visit the application.
 - Create, view, edit, or delete boards as needed.
@@ -77,4 +87,4 @@ Public Boards is a simple CRUD (Create, Read, Update, Delete) application that a
 
 ---
 
-Feel free to contribute or suggest improvements! ⭐
+**⭐ Feel free to contribute or suggest improvements! ⭐**
