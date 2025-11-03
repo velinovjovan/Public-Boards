@@ -4,12 +4,6 @@ Public Boards is a simple CRUD (Create, Read, Update, Delete) application that a
 
 ---
 
-## 🌐 Live Demo
-
-Explore the website [here](https://publicboards.vercel.app)
-
----
-
 ## 🖌️ Features
 
 - **Public Access:** No row-level security is implemented, allowing anyone to perform CRUD operations on all boards.
