@@ -1,25 +1,25 @@
 # Public Boards 📋
 
-Public Boards is a simple CRUD (Create, Read, Update, Delete) application that allows users to create, edit, and delete boards. This project is built using React for the frontend and Supabase as the backend database.
+Public Boards is an application that allows users to create, edit, and delete boards. This project is built using React for the frontend and Supabase as the backend database.
 
 ---
 
-## 🖌️ Features
+## 👥 Usage
 
-- **Public Access:** No row-level security is implemented, allowing anyone to perform CRUD operations on all boards.
-- **CRUD Functionality:** Users can:
-  - Create new boards.
-  - View existing boards.
-  - Edit boards.
-  - Delete boards.
-- **Real-time Updates:** Changes are reflected immediately thanks to Supabase's real-time capabilities.
+- Visit the application.
+- Create, view, edit, or delete boards as needed.
+- Changes are visible to all users instantly.
 
-## 🛠️ Technologies Used
+---
+
+## ⚙️ Tech Stack
 
 - **Frontend:** React
 - **Backend Database:** Supabase
 
-## 🚀 Getting Started
+---
+
+## 🧩 Installation
 
 ### Prerequisites
 
@@ -56,29 +56,4 @@ Public Boards is a simple CRUD (Create, Read, Update, Delete) application that a
    ```
    - The app will be available at `http://localhost:3000`.
 
-### Supabase Configuration
-
-1. **Database Schema:**
-
-   - Create a `boards` table in Supabase with the following columns:
-     | Column Name | Type | Constraints |
-     |--------------|-------------|------------------|
-     | id | UUID | Primary Key |
-     | description | Text | Not Null |
-     | author | Text | Not Null |
-     | created_at | Timestamp | Default: now() |
-
-2. **API Key:**
-   - Use the public `anon` key provided by Supabase for client-side operations.
-
 ---
-
-## 👥 Usage
-
-- Visit the application.
-- Create, view, edit, or delete boards as needed.
-- Changes are visible to all users instantly.
-
----
-
-**⭐ Feel free to contribute or suggest improvements! ⭐**
